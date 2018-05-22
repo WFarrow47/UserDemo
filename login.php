@@ -3,7 +3,7 @@
 // This is the first login system I've created using ajax request(s), I usually either use php action with POST method or use an api like Steam or Google.
 include 'func.php';
 // To test database connection, we require the db.php file. This will allow us to prevent usage if the site is not connected.
-require 'db.php';
+//require 'db.php'; // I found out that this is redundant as db.php is already included in the func.php file.
 if(isset($_COOKIE['LOGIN_COOKIE']) && !isset($_GET['t']))
 {
   echo '<script>window.location.href = "login.php?t=auth";</script>';
