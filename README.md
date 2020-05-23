@@ -1,3 +1,5 @@
+## This project is now archived. Feel free to fork it and use it for anything.
+
 # UserDemo
 
 This was created with jQuery, HTML, PHP and the Bootstrap framework.
